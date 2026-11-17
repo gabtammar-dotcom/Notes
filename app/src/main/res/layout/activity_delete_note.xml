@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDF8"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/delete_note"
+        android:textColor="#1E3A5F"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/spinnerNotes"
+        android:text="@string/select_note"
+        android:textColor="#333A42"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/txtEmptyNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/empty_notes"
+        android:textColor="#333A42"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnDeleteNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#1E3A5F"
+        android:text="@string/delete_note"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#E8EEF4"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textColor="#1E3A5F" />
+
+</LinearLayout>

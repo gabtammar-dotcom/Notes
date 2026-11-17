@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="notes_title">Mano užrašai</string>
+    <string name="create_note">Sukurti užrašą</string>
+    <string name="delete_note">Ištrinti užrašą</string>
+    <string name="note_name">Užrašo pavadinimas</string>
+    <string name="note_content">Užrašo turinys</string>
+    <string name="save_note">Išsaugoti</string>
+    <string name="select_note">Pasirink užrašą</string>
+    <string name="empty_notes">Užrašų dar nėra. Meniu pasirink „Sukurti užrašą“.</string>
+    <string name="required_name">Įvesk užrašo pavadinimą</string>
+    <string name="required_content">Įvesk užrašo turinį</string>
+    <string name="note_saved">Užrašas išsaugotas</string>
+    <string name="note_deleted">Užrašas ištrintas</string>
+    <string name="storage_error">Nepavyko išsaugoti pakeitimų. Bandyk dar kartą.</string>
+    <string name="load_error">Nepavyko perskaityti išsaugotų užrašų.</string>
+    <string name="back">Grįžti</string>
+</resources>
